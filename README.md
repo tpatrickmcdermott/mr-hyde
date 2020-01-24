@@ -4,6 +4,7 @@
 ```console
 git init
 git log --since="6am"
+foo@bar:~$ whoami
 ```
 
 ```shell
