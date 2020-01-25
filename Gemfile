@@ -1,3 +1,7 @@
+# Add this line so Netlify can build the site (this line is inferred for gh-pages)
+# ref:  https://www.netlify.com/blog/2017/05/11/migrating-your-jekyll-site-to-netlify/ 
+gem 'github-pages'
+# Begin restt of generated file
 source "https://rubygems.org"
 
 # Hello! This is where you manage which Jekyll version is used to run.
@@ -27,4 +31,3 @@ gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 # Performance-booster for watching directories on Windows
 gem "wdm", "~> 0.1.0" if Gem.win_platform?
-
